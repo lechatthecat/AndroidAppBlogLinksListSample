@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             this.createLinkView(
                 this,
                 "https://2.bp.blogspot.com/-wqB2qH-DUNA/XC3KJ0-ZW6I/AAAAAAAAHb4/frYEljJQ2z4AjXZz772isHM_KNIkSyEDgCLcBGAs/s320/no_image.jpg",
-                "https://noteoneverything.blogspot.com/",
+                "https://noteoneverything.blogspot.com/2017/07/contents-1.html",
                 "Notes on everything",
                 "test test test test test test test test test test test test test test test test test test test test test test test test test test test test",
                 "2018/1/1 20:00:00"
