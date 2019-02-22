@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     // Function to load more links
     private fun load(numOfLoad : Int, context : Context){
-        // If the load-more-links always exists, remove it.
+        // If the load-more-links already exists, remove it.
         if(findViewById(this.loadMoreLinkLayoutId) as? LinearLayout != null) {
             val oldLoadMoreLinkLayout = findViewById(this.loadMoreLinkLayoutId) as LinearLayout
             (oldLoadMoreLinkLayout.getParent() as ViewGroup).removeView(oldLoadMoreLinkLayout)
